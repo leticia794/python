@@ -32,3 +32,32 @@ For g in range (1,E):
 R = R * B
  
 print("Resultado:", "{:.2f.}".format(r))
+
+
+
+
+
+
+ import random
+continuar * "s"
+while continuar.upper() == "s" :
+    ns = random.randing(1,80)
+    t = 3
+    while(t > 0):
+        print("voce tem", t ," tentativa")
+        t = t - 1
+        nc = int(input("digite um numero entre 1 e10"))
+        if (ns = nc):
+            print("voce acertou. ")
+            t = 0
+        else:
+ if ( ns == nc):            
+    print(" voce acertou. ")
+    t = 0
+    pcerto = pcerto  +1
+ else: 
+   print("voce errou.")
+   perro = perro + 1
+print("numero de acerto:",pcerto)
+print("numero de erros:",perro)
+
