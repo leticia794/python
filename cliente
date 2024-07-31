@@ -1,0 +1,34 @@
+class conta:
+    
+    def __init__(self,numero,titular,saldo,limite):
+        self.__numero = "numero"
+        self.__titular = "titular"
+        self.__saldo = "saldo"
+        self.__limite = "limite"
+        
+    def extrato(self):
+        print("saldo atual: {}".format(self.__saldo))
+        
+    def __podesacar(self,valorsacar):
+         valordisponivel = self.__saldo +self.__limite
+         return valorsacar <= valordisponivel
+
+
+
+
+class cliente:
+    def __init__(self,nome):
+        self.__nome = nome
+        
+    ## metodo
+    def get_nome(self):
+        return self.__nome.title()
+
+from cliente import cliente
+
+print(cliente.__nome)
+
+##chamado o método
+
+
+                                                        
